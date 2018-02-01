@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Show App</title>
+</head>
+<body>
+    <h2>Latest Upload</h2>
+    <a href="{{url_for('upload')}}">Upload</a> <br> <br>
+    <img src="/{{last_image}}"  alt="No image to show, upload one! " width="25%">
+</body>
+</html>
